@@ -45,7 +45,8 @@ pada pengerjaan API ini saya menggunakan beberapa library/package tambahan berup
 - mysql2
 - sequalize dan cli-sequalize
 - body parser
-- uuid 
+- uuid
+- jwt
 
 ## **NOTE
 Saya menyertakan database yang sudah berisi beberapa data jika ingin langsung menggunakan database dari hasil yang sudah pernah saya coba,diantaranya data login berupa:
