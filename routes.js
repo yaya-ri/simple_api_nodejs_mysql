@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (app) {
-    var controller = require('./controller');
+    var controller = require('../simpleAPI/controller/controller');
 
     app.route('/').get(controller.index);
     app.route('/classes').get(controller.readClasses);

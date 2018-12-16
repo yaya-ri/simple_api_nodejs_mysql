@@ -1,8 +1,8 @@
 'use strict';
 
-var response = require('./res');
+var response = require('../res');
 const uuidv4 = require('uuid/v4');
-const models = require("./models");
+const models = require("../models");
 //const models = require("./models/index");
 
 exports.readClasses = function (req, res) {
