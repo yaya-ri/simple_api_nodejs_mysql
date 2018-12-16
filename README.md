@@ -19,14 +19,15 @@
     
     $ nodemon start //jika sudah intall nodemon
 
-Dalam API yang saya buat terdiri dari 2 endpoint GET dan 2 endpoint POST sesuai deskripsi. 
-    - localhost:8000/api/classes (GET)  //menampilkan semua class
-    - localhost:8000/api/students/{id} (GET) //menampilkan class beserta student disetiap classnya dengan parameter id kelas
-    - localhost:8000/api/classes (POST) //menambahkan data pada tabel classes
-    - localhost:8000/api/students (POST) //menambahkan data pada tabel students
+## EndPoint
+
+    - localhost:3000/classes (GET)  //menampilkan semua class
+    - localhost:3000/classes (POST) //menambahkan data pada tabel classes
+    - localhost:3000/students/class_id (GET) ///menampilkan class beserta students disetiap classnya dengan parameter id kelas 
+    - localhost:3000/students (POST) //menambahkan data pada tabel students, gunakan "x-www-form-urlencoded" pada postman
 
 ## Library/Package
-pada pengerjaan technical test ini saya menggunakan beberapa library/package tambahan berupa:
+pada pengerjaan API ini saya menggunakan beberapa library/package tambahan berupa:
 - express
 - mysql2
 - sequalize dan cli-sequalize
